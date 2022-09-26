@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class MoveObjectRB05 : MonoBehaviour
 {
+    // I unchecked is Kinematic on the red cube and changed its mass to be .1 so that it can move with the given moveDirection value.
+
     Rigidbody rigidbody;
     Vector3 moveDirection;
     // Start is called before the first frame update
